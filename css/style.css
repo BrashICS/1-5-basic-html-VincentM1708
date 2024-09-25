@@ -1,5 +1,14 @@
 body {
     background-color:black;
     color: white;
+    text-align: center;
+}
+
+a {  
+    color:steelblue
+}
+a:hover {
+    color:maroon;
+    font-size: large;
 }
 
