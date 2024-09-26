@@ -1,14 +1,23 @@
 body {
-    background-color:black;
+    background-color:#6fb1cf;
     color: white;
     text-align: center;
+    
 }
 
 a {  
-    color:steelblue
+    color:darkblue;
+    font-size: 150%;
+    border: black;
+    
 }
 a:hover {
     color:maroon;
-    font-size: large;
+    font-size: 200%;
+    transition-duration: 0.5s;
+    transition-property: font-size, color;
 }
 
+h1 {
+    font-size: 400%;
+}
